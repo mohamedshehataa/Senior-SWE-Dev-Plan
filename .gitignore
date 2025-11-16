@@ -1,0 +1,32 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Java
+*.class
+*.jar
+*.war
+target/
+build/
+out/
+
+# Node
+node_modules/
+npm-debug.log
+
+# Personal notes (if you want to keep private)
+# personal-notes/
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+*.temp
