@@ -1,16 +1,16 @@
 # Progress Tracking Sheet
 
-**Last Updated**: [Date]
+**Last Updated**: November 16, 2025
 
 ## 📊 Overall Progress
 
 | Category | Progress | Target | Completion % |
 |----------|----------|--------|--------------|
-| LeetCode Problems | 0 | 240 | 0% |
-| System Design Topics | 0 | 32 | 0% |
+| LeetCode Problems | 1 | 240 | 0.4% |
+| System Design Topics | 1 | 32 | 3.1% |
 | Weekend Projects | 0 | 8 | 0% |
 | Mock Interviews | 0 | 20 | 0% |
-| Study Days Completed | 0 | 240 | 0% |
+| Study Days Completed | 1 | 240 | 0.4% |
 
 ## 🗓️ Monthly Breakdown
 
@@ -19,7 +19,7 @@
 
 | Week | LeetCode | Concepts Covered | System Design | Project | Hours | Status |
 |------|----------|------------------|---------------|---------|-------|--------|
-| 1 | 0/7 | | | | 0/19 | ⏳ In Progress |
+| 1 | 1/7 | Scalability Basics | Started | - | 3/19 | ⏳ In Progress |
 | 2 | 0/7 | | | | 0/19 | ⬜ Not Started |
 | 3 | 0/7 | | | | 0/19 | ⬜ Not Started |
 | 4 | 0/7 | | | | 0/19 | ⬜ Not Started |
@@ -168,10 +168,10 @@
 
 | Pattern | Problems Solved | Mastery Level |
 |---------|----------------|---------------|
-| Arrays & Strings | 0/30 | ⬜ 0% |
+| Arrays & Strings | 1/30 | 🟨 3% |
 | Two Pointers | 0/15 | ⬜ 0% |
 | Sliding Window | 0/15 | ⬜ 0% |
-| Hash Tables | 0/15 | ⬜ 0% |
+| Hash Tables | 1/15 | 🟨 7% |
 | Linked Lists | 0/15 | ⬜ 0% |
 | Binary Trees | 0/20 | ⬜ 0% |
 | Binary Search Trees | 0/12 | ⬜ 0% |
@@ -191,7 +191,7 @@
 ## 🏗️ System Design Topics Checklist
 
 ### Fundamentals (Month 1-2)
-- [ ] Scalability basics
+- [x] Scalability basics
 - [ ] Load balancing (L4 vs L7)
 - [ ] Caching strategies (Redis, Memcached)
 - [ ] Database basics (SQL vs NoSQL)
@@ -259,16 +259,23 @@
 
 ### Week 1
 **What went well**:
--
+- Completed Day 1: Two Sum problem and Scalability Basics
+- Learned hash map complement pattern
+- Understanding of vertical vs horizontal scaling
 
 **What needs improvement**:
--
+- Need to code solutions from scratch without looking
+- Practice explaining solutions out loud
 
 **Key learnings**:
--
+- Hash maps can optimize O(n²) to O(n) by trading space for time
+- Stateless design is key to horizontal scaling
+- The "complement search" pattern is fundamental
 
 **Next week focus**:
--
+- Continue with 6 more LeetCode problems (arrays/strings focus)
+- Load Balancing and Caching concepts
+- Start thinking about Weekend Project 1
 
 ---
 
