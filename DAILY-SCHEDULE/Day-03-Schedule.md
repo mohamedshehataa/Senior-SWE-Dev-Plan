@@ -1,4 +1,4 @@
-# Day 3 Schedule - Wednesday, November 18, 2025
+# Day 3 Schedule - Tuesday, November 18, 2025
 
 **Theme**: HashSet Pattern + Two Pointers Mastery
 **Goals**: Contains Duplicate problem, Two Pointers technique, Concurrency Ch 3
@@ -103,9 +103,10 @@
 
 ---
 
-## 📚 Evening Study Block (8:00 PM - 10:00 PM) - 2 hours
+## 🌙 Evening Study Block (9:00 PM - 11:00 PM) - 2 hours
+*After gym (7:00 PM - 9:00 PM)*
 
-### 8:00 PM - 9:30 PM: Java Concurrency Ch 3 - Memory Model (90 min)
+### 9:00 PM - 10:30 PM: Java Concurrency Ch 3 - Memory Model (90 min)
 
 **Reading**: "Java Concurrency in Practice" Chapter 3 - Visibility
 
@@ -146,7 +147,7 @@
 - Take notes on visibility issues
 - Think: "Have I seen this bug in PMC code?"
 
-### 9:30 PM - 10:00 PM: Code BankAccount Example (30 min)
+### 10:30 PM - 11:00 PM: Code BankAccount Example (30 min)
 
 **From Day 2 Concept File:**
 
@@ -194,28 +195,16 @@ public class BankAccount {
 
 ---
 
-## 🏋️ Gym Time (Wednesday - 8:00 PM - 10:30 PM)
+## 🏋️ Gym Time (Tuesday - 7:00 PM - 9:00 PM)
 
-**CONFLICT RESOLUTION:**
-Today is Wednesday = Gym day (8:00 - 10:30 PM)
+**TODAY IS TUESDAY:**
+Gym from 7:00 PM - 9:00 PM (shorter session)
 
-**Adjusted Schedule:**
-- 8:00 PM - 10:30 PM: Gym 🏋️
-- 10:30 PM - 12:30 AM: Java Concurrency Ch 3 + BankAccount coding (shifted)
+**No conflicts!** Study blocks fit perfectly around gym time.
 
 ---
 
-## 🌙 Night Study Block (10:30 PM - 12:30 AM) - 2 hours
-
-### 10:30 PM - 12:00 AM: Java Concurrency Ch 3 (90 min)
-[Same content as 8:00 PM slot above - shifted due to gym]
-
-### 12:00 AM - 12:30 AM: Code BankAccount Example (30 min)
-[Same content as 9:30 PM slot above - shifted due to gym]
-
----
-
-## 📝 Reflection & Update (12:30 AM - 1:00 AM) - 30 min
+## 📝 Reflection & Update (11:00 PM - 11:30 PM) - 30 min
 
 ### Update Progress Tracker
 ```markdown
@@ -252,7 +241,7 @@ Today is Wednesday = Gym day (8:00 - 10:30 PM)
 
 ---
 
-## 🎯 Late Night (1:00 AM - 4:00 AM) - Free Time
+## 🎯 Late Night (11:30 PM - 4:00 AM) - Free Time
 
 **Options:**
 - Review LeetCode patterns from Week 1
