@@ -425,18 +425,6 @@ seen.add(num);
 
 ---
 
-## Time Spent
-
-- Understanding: 3 mins
-- Coding brute force: 3 mins
-- Coding sorting: 5 mins
-- Coding HashSet: 5 mins
-- Testing: 5 mins
-- Understanding Stream API variant: 4 mins
-- **Total: 25 mins**
-
----
-
 ## Review Checklist
 
 - [ ] Problem understood completely

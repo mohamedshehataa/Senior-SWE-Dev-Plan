@@ -21,8 +21,8 @@ out/
 node_modules/
 npm-debug.log
 
-# Personal notes (if you want to keep private)
-# personal-notes/
+# Personal schedules and timing info (keep local only)
+DAILY-SCHEDULE/
 
 # Logs
 *.log

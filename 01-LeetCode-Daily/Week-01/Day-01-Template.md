@@ -124,14 +124,6 @@ Status: ✓/✗
 
 ---
 
-## Time Spent
-- Understanding: X mins
-- Coding: X mins
-- Debugging: X mins
-- Total: X mins
-
----
-
 ## Review Checklist
 - [ ] Problem understood completely
 - [ ] All approaches documented

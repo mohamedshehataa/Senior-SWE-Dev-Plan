@@ -296,17 +296,6 @@ class Solution {
 
 ---
 
-## Time Spent
-
-- Understanding: 5 mins
-- Coding brute force: 5 mins
-- Coding optimized: 10 mins
-- Testing: 5 mins
-- Understanding Kadane variant: 5 mins
-- **Total: 30 mins**
-
----
-
 ## Review Checklist
 
 - [ ] Problem understood completely

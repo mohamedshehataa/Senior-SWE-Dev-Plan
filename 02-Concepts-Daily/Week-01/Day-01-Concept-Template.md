@@ -3,7 +3,6 @@
 **Date**: [Today's Date]
 **Category**: System Design / Java / Spring / Distributed Systems
 **Difficulty**: Beginner / Intermediate / Advanced
-**Time Spent**: [X minutes]
 
 ---
 

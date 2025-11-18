@@ -3,7 +3,6 @@
 **Date**: November 16, 2025
 **Category**: System Design
 **Difficulty**: Beginner
-**Time Spent**: 60 minutes
 
 ---
 

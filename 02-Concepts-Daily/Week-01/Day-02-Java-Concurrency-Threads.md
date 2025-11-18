@@ -3,7 +3,6 @@
 **Date**: November 17, 2025
 **Category**: Java Core
 **Difficulty**: Intermediate
-**Time Spent**: 60 minutes
 
 ---
 

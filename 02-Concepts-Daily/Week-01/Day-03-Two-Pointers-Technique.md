@@ -3,7 +3,6 @@
 **Date**: November 18, 2025
 **Category**: Algorithm Pattern
 **Difficulty**: Beginner to Intermediate
-**Time Spent**: 60 minutes
 
 ---
 

@@ -239,16 +239,6 @@ Iteration 1:
 
 ---
 
-## Time Spent
-
-- Understanding: 5 mins
-- Coding brute force: 5 mins
-- Coding optimized: 10 mins
-- Testing: 5 mins
-- **Total: 25 mins**
-
----
-
 ## Review Checklist
 
 - [x] Problem understood completely
