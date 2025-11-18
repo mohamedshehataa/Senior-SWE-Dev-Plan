@@ -1,16 +1,16 @@
 # Progress Tracking Sheet
 
-**Last Updated**: November 16, 2025
+**Last Updated**: November 17, 2025
 
 ## 📊 Overall Progress
 
 | Category | Progress | Target | Completion % |
 |----------|----------|--------|--------------|
-| LeetCode Problems | 1 | 240 | 0.4% |
-| System Design Topics | 1 | 32 | 3.1% |
+| LeetCode Problems | 2 | 240 | 0.8% |
+| System Design Topics | 2 | 32 | 6.3% |
 | Weekend Projects | 0 | 8 | 0% |
 | Mock Interviews | 0 | 20 | 0% |
-| Study Days Completed | 1 | 240 | 0.4% |
+| Study Days Completed | 2 | 112 | 1.8% |
 
 ## 🗓️ Monthly Breakdown
 
@@ -19,7 +19,7 @@
 
 | Week | LeetCode | Concepts Covered | System Design | Project | Hours | Status |
 |------|----------|------------------|---------------|---------|-------|--------|
-| 1 | 1/7 | Scalability Basics | Started | - | 3/19 | ⏳ In Progress |
+| 1 | 2/7 | Scalability, Java Concurrency, Load Balancing | In Progress | - | 9/19 | ⏳ In Progress |
 | 2 | 0/7 | | | | 0/19 | ⬜ Not Started |
 | 3 | 0/7 | | | | 0/19 | ⬜ Not Started |
 | 4 | 0/7 | | | | 0/19 | ⬜ Not Started |
@@ -168,7 +168,7 @@
 
 | Pattern | Problems Solved | Mastery Level |
 |---------|----------------|---------------|
-| Arrays & Strings | 1/30 | 🟨 3% |
+| Arrays & Strings | 2/30 | 🟨 7% |
 | Two Pointers | 0/15 | ⬜ 0% |
 | Sliding Window | 0/15 | ⬜ 0% |
 | Hash Tables | 1/15 | 🟨 7% |
@@ -184,7 +184,7 @@
 | Trie | 0/8 | ⬜ 0% |
 | Bit Manipulation | 0/10 | ⬜ 0% |
 
-**Total**: 0/240
+**Total**: 2/240
 
 ---
 
@@ -192,7 +192,7 @@
 
 ### Fundamentals (Month 1-2)
 - [x] Scalability basics
-- [ ] Load balancing (L4 vs L7)
+- [x] Load balancing (L4 vs L7)
 - [ ] Caching strategies (Redis, Memcached)
 - [ ] Database basics (SQL vs NoSQL)
 - [ ] Replication and Sharding
@@ -259,23 +259,33 @@
 
 ### Week 1
 **What went well**:
-- Completed Day 1: Two Sum problem and Scalability Basics
-- Learned hash map complement pattern
-- Understanding of vertical vs horizontal scaling
+- ✅ Day 1: Two Sum (Hash Map pattern)
+- ✅ Day 2: Best Time to Buy Stock (Single-pass pattern)
+- ✅ Read Java Concurrency in Practice (Ch 1-3)
+- ✅ Learned thread safety, race conditions, synchronization
+- ✅ Load balancing fundamentals (L4 vs L7, algorithms)
+- ✅ Connected concepts to PMC production code
+- ✅ 2-day streak maintained! 🔥
 
 **What needs improvement**:
-- Need to code solutions from scratch without looking
-- Practice explaining solutions out loud
+- Practice coding from scratch without peeking at solutions
+- Explain algorithms out loud (interview practice)
+- Write STAR stories for PMC experience
 
 **Key learnings**:
-- Hash maps can optimize O(n²) to O(n) by trading space for time
-- Stateless design is key to horizontal scaling
-- The "complement search" pattern is fundamental
+- Day 1: Hash maps optimize O(n²) → O(n) via complement search
+- Day 2: Single-pass with state tracking (track minPrice)
+- Concurrency: Race conditions are REAL (saw it live in code!)
+- synchronized keyword prevents concurrent access issues
+- Load balancing = distributing work (same as my PMC task distribution!)
+- My BackupThreadPoolService = production thread pool + load balancing!
 
-**Next week focus**:
-- Continue with 6 more LeetCode problems (arrays/strings focus)
-- Load Balancing and Caching concepts
-- Start thinking about Weekend Project 1
+**Next 5 days focus**:
+- 5 more LeetCode problems (Days 3-7)
+- Two Pointers, Stacks, Sliding Window patterns
+- Caching strategies, Database concepts
+- Write 1-2 PMC STAR stories
+- Sunday: Review week + plan Week 2
 
 ---
 
