@@ -261,13 +261,15 @@
 **What went well**:
 - ✅ Day 1: Two Sum (Hash Map pattern)
 - ✅ Day 2: Best Time to Buy Stock (Single-pass pattern)
-- ✅ Read Java Concurrency in Practice (Ch 1-3)
+- ✅ Read Java Concurrency in Practice (Ch 1-2)
 - ✅ Learned thread safety, race conditions, synchronization
 - ✅ Load balancing fundamentals (L4 vs L7, algorithms)
 - ✅ Connected concepts to PMC production code
 - ✅ 2-day streak maintained! 🔥
 
 **What needs improvement**:
+- Complete Concurrency Ch 3 (Memory Model)
+- Code the BankAccount synchronization example
 - Practice coding from scratch without peeking at solutions
 - Explain algorithms out loud (interview practice)
 - Write STAR stories for PMC experience
