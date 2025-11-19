@@ -1,16 +1,16 @@
 # Progress Tracking Sheet
 
-**Last Updated**: November 17, 2025
+**Last Updated**: November 18, 2025
 
 ## 📊 Overall Progress
 
 | Category | Progress | Target | Completion % |
 |----------|----------|--------|--------------|
-| LeetCode Problems | 2 | 240 | 0.8% |
+| LeetCode Problems | 3 | 240 | 1.3% |
 | System Design Topics | 2 | 32 | 6.3% |
 | Weekend Projects | 0 | 8 | 0% |
 | Mock Interviews | 0 | 20 | 0% |
-| Study Days Completed | 2 | 112 | 1.8% |
+| Study Days Completed | 3 | 112 | 2.7% |
 
 ## 🗓️ Monthly Breakdown
 
@@ -19,7 +19,7 @@
 
 | Week | LeetCode | Concepts Covered | System Design | Project | Hours | Status |
 |------|----------|------------------|---------------|---------|-------|--------|
-| 1 | 2/7 | Scalability, Java Concurrency, Load Balancing | In Progress | - | 9/19 | ⏳ In Progress |
+| 1 | 3/7 | Scalability, Java Concurrency (Ch 1-2), Load Balancing | In Progress | - | 12/19 | ⏳ In Progress |
 | 2 | 0/7 | | | | 0/19 | ⬜ Not Started |
 | 3 | 0/7 | | | | 0/19 | ⬜ Not Started |
 | 4 | 0/7 | | | | 0/19 | ⬜ Not Started |
@@ -168,10 +168,10 @@
 
 | Pattern | Problems Solved | Mastery Level |
 |---------|----------------|---------------|
-| Arrays & Strings | 2/30 | 🟨 7% |
-| Two Pointers | 0/15 | ⬜ 0% |
+| Arrays & Strings | 3/30 | 🟨 10% |
+| Two Pointers | 1/15 | 🟨 7% |
 | Sliding Window | 0/15 | ⬜ 0% |
-| Hash Tables | 1/15 | 🟨 7% |
+| Hash Tables | 2/15 | 🟨 13% |
 | Linked Lists | 0/15 | ⬜ 0% |
 | Binary Trees | 0/20 | ⬜ 0% |
 | Binary Search Trees | 0/12 | ⬜ 0% |
@@ -184,7 +184,7 @@
 | Trie | 0/8 | ⬜ 0% |
 | Bit Manipulation | 0/10 | ⬜ 0% |
 
-**Total**: 2/240
+**Total**: 3/240
 
 ---
 
@@ -261,11 +261,14 @@
 **What went well**:
 - ✅ Day 1: Two Sum (Hash Map pattern)
 - ✅ Day 2: Best Time to Buy Stock (Single-pass pattern)
+- ✅ Day 3: Palindrome Number (Two Pointers pattern)
 - ✅ Read Java Concurrency in Practice (Ch 1-2)
+- ✅ Reading Concurrency Ch 3 (in progress)
 - ✅ Learned thread safety, race conditions, synchronization
-- ✅ Load balancing fundamentals (L4 vs L7, algorithms)
+- ✅ Load balancing fundamentals (L4 vs L7, algorithms) - deep dive complete
 - ✅ Connected concepts to production systems
-- ✅ 2-day streak maintained! 🔥
+- ✅ Cleaned up repo structure and privacy
+- ✅ 3-day streak maintained! 🔥🔥🔥
 
 **What needs improvement**:
 - Complete Concurrency Ch 3 (Memory Model)
@@ -277,10 +280,12 @@
 **Key learnings**:
 - Day 1: Hash maps optimize O(n²) → O(n) via complement search
 - Day 2: Single-pass with state tracking (track minPrice)
-- Concurrency: Race conditions are REAL (saw it live in code!)
+- Day 3: Two Pointers - half reversal for palindromes (beats 100%)
+- Concurrency: Race conditions are REAL, visibility matters
 - synchronized keyword prevents concurrent access issues
-- Load balancing = distributing work across servers/threads
+- Load balancing: L4 (fast) vs L7 (intelligent), 5 algorithms
 - Thread pools + load balancing = enterprise-level architecture
+- Not every day is perfect - consistency > perfection
 
 **Next 5 days focus**:
 - 5 more LeetCode problems (Days 3-7)
