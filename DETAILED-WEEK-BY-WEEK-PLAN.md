@@ -797,7 +797,7 @@
 - Polish GitHub repositories
 - Write project READMEs
 - Create portfolio website (optional)
-- Practice explaining PMC work
+- Practice explaining previous work experience
 - Rehearse system design presentations
 
 **Weekend**:
@@ -850,7 +850,7 @@
 8. ✅ Load Balancer
 
 ### Experience:
-- **Your PMC work** = Production distributed systems
+- **Previous work** = Production distributed systems
 - **8 Projects** = Hands-on implementation
 - **20+ Mock interviews** = Interview-ready
 
@@ -863,7 +863,7 @@ After 8 months:
 - ✅ All major patterns mastered
 - ✅ System design expertise
 - ✅ 8 portfolio projects
-- ✅ Real production experience (PMC)
+- ✅ Real production experience
 - ✅ 20 mock interviews completed
 
 **You're ready for senior roles at top companies!** 🚀

@@ -676,9 +676,9 @@ Need cycle detection or middle?
 - Mention space optimization: "We can do this without extra space using two pointers"
 - Draw the pointer movements on whiteboard
 
-**Connection to PMC work:**
-- Your BackupThreadPoolService processes tasks in order
-- Could use two-pointer-like logic for priority queue merging
+**Connection to production work:**
+- Task processing systems often use queue-based patterns
+- Two-pointer-like logic useful for priority queue merging
 - In-place array modifications = memory efficient (critical for large datasets)
 
 **Next concepts:**

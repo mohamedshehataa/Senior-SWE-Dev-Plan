@@ -264,7 +264,7 @@
 - ✅ Read Java Concurrency in Practice (Ch 1-2)
 - ✅ Learned thread safety, race conditions, synchronization
 - ✅ Load balancing fundamentals (L4 vs L7, algorithms)
-- ✅ Connected concepts to PMC production code
+- ✅ Connected concepts to production systems
 - ✅ 2-day streak maintained! 🔥
 
 **What needs improvement**:
@@ -272,21 +272,21 @@
 - Code the BankAccount synchronization example
 - Practice coding from scratch without peeking at solutions
 - Explain algorithms out loud (interview practice)
-- Write STAR stories for PMC experience
+- Write STAR stories for previous work experience
 
 **Key learnings**:
 - Day 1: Hash maps optimize O(n²) → O(n) via complement search
 - Day 2: Single-pass with state tracking (track minPrice)
 - Concurrency: Race conditions are REAL (saw it live in code!)
 - synchronized keyword prevents concurrent access issues
-- Load balancing = distributing work (same as my PMC task distribution!)
-- My BackupThreadPoolService = production thread pool + load balancing!
+- Load balancing = distributing work across servers/threads
+- Thread pools + load balancing = enterprise-level architecture
 
 **Next 5 days focus**:
 - 5 more LeetCode problems (Days 3-7)
 - Two Pointers, Stacks, Sliding Window patterns
 - Caching strategies, Database concepts
-- Write 1-2 PMC STAR stories
+- Write 1-2 STAR stories from work experience
 - Sunday: Review week + plan Week 2
 
 ---

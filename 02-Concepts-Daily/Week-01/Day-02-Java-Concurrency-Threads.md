@@ -19,7 +19,7 @@
 ## 🎯 Why is it Important?
 
 - **Real-world use case 1**: **Web servers** - Handle thousands of concurrent user requests (each request on a separate thread)
-- **Real-world use case 2**: **Your PMC system** - BackupThreadPoolService manages multiple backup operations concurrently
+- **Real-world use case 2**: **Backup systems** - Thread pools manage multiple backup operations concurrently
 - **Real-world use case 3**: **Video streaming** - One thread downloads data, another decodes video, another handles audio
 
 - **Interview relevance**: Concurrency questions are COMMON in senior interviews. Interviewers want to know:
@@ -111,7 +111,7 @@ executor.shutdown();
 - Thread pooling (reuses threads, efficient)
 - Better resource management
 - Production-ready
-- **This is what you use in PMC BackupThreadPoolService!**
+- **Industry standard for production systems**
 
 **Cons**: Slightly more complex for simple cases
 
@@ -390,17 +390,17 @@ public class ProducerConsumerExample {
 }
 ```
 
-**This is similar to your PMC message queue pattern with ActiveMQ!**
+**This pattern is commonly used in message queue systems like ActiveMQ!**
 
 ---
 
 ## 🏢 Real-World Examples
 
-### Company 1: Your PMC System (BackupThreadPoolService)
+### Company 1: Enterprise Backup Systems
 
-**What you do:**
+**Common implementation:**
 ```java
-// Your PMC code (simplified)
+// Typical backup system architecture
 ExecutorService realtimeExecutor = Executors.newFixedThreadPool(10);
 ExecutorService scanExecutor = Executors.newFixedThreadPool(5);
 
@@ -409,11 +409,11 @@ realtimeExecutor.submit(new BackupCommand());
 scanExecutor.submit(new ScanCommand());
 ```
 
-**Concurrency patterns you already use:**
+**Common concurrency patterns:**
 - Thread pools for different priority levels
 - BlockingQueues for task queuing
 - Semaphores for resource throttling
-- **You're already doing senior-level concurrency!**
+- **Senior-level concurrency patterns in production**
 
 ---
 
@@ -477,7 +477,7 @@ t.run();    // ❌ Runs in current thread (no concurrency!)
 4. **Immutable objects** - Cannot be modified, inherently thread-safe
 5. **Thread-local variables** - Each thread has its own copy
 
-**In my PMC work, I use semaphores and concurrent data structures to prevent race conditions in the backup system.**
+**Production systems use semaphores and concurrent data structures to prevent race conditions.**
 
 ---
 
@@ -526,7 +526,7 @@ for (int i = 0; i < 10000; i++) {
 }
 ```
 
-**In PMC, we use separate thread pools for realtime vs scan operations to prioritize critical tasks.**
+**Enterprise systems often use separate thread pools for realtime vs batch operations to prioritize critical tasks.**
 
 ---
 
@@ -614,7 +614,7 @@ The `synchronized` keyword ensures only one thread can access the method at a ti
 
 - **Book**: "Java Concurrency in Practice" by Brian Goetz (THE definitive guide)
 - **Oracle Docs**: https://docs.oracle.com/javase/tutorial/essential/concurrency/
-- **Your PMC Code**: BackupThreadPoolService.java - real production example!
+- **Production Examples**: Real-world thread pool implementations
 - **Article**: "A Guide to Java ExecutorService" - Baeldung
 
 ---
@@ -638,7 +638,7 @@ The `synchronized` keyword ensures only one thread can access the method at a ti
 3. **Thread Pools are production standard** - Reuse threads, manage resources efficiently
 4. **Race conditions are real** - Always think about thread safety when sharing data
 5. **synchronized is your friend** - Simple way to prevent race conditions, but use wisely (can impact performance)
-6. **I already use this in PMC!** - BackupThreadPoolService, priority queues, concurrent collections
+6. **Production patterns** - Thread pools, priority queues, concurrent collections are industry standard
 
 ---
 
@@ -652,16 +652,16 @@ The `synchronized` keyword ensures only one thread can access the method at a ti
 
 ## 💭 Personal Notes
 
-**Connection to PMC work:**
-My BackupThreadPoolService uses ExecutorService with multiple thread pools. I manage:
-- Priority queues (realtime vs scan)
+**Connection to production work:**
+Enterprise backup systems use ExecutorService with multiple thread pools:
+- Priority queues (realtime vs batch)
 - Semaphores for resource throttling
 - BlockingQueues for task scheduling
-- This is EXACTLY what senior engineers do!
+- This is EXACTLY what senior engineers implement!
 
-**For interviews, I can talk about:**
-- "I designed a multi-priority thread pool system for backup operations"
-- "I used semaphores to prevent resource exhaustion"
-- "I implemented fair scheduling across multiple queues"
+**For interviews, discuss:**
+- "Multi-priority thread pool systems for task management"
+- "Semaphores to prevent resource exhaustion"
+- "Fair scheduling across multiple queues"
 
 **Next step:** Tomorrow (Day 3) will cover **System Design - Load Balancing**, which ties into distributing work across threads/servers!

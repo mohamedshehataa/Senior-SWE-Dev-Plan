@@ -342,7 +342,7 @@ for (int i = 0; i < 10; i++) {
 **Why AtomicInteger?**
 - Thread-safe without synchronization
 - Multiple threads can call `getNextServer()` concurrently
-- **Connection to your PMC work:** Similar to how BackupThreadPoolService manages thread pools!
+- **Production pattern:** Similar to how enterprise systems manage thread pools!
 
 ---
 
@@ -731,15 +731,15 @@ public class LoadBalancerWithHealthCheck {
 
 ## 💭 Personal Notes
 
-**Connection to PMC work:**
-- Your BackupThreadPoolService distributes backup tasks across threads
+**Connection to production systems:**
+- Enterprise backup systems distribute tasks across threads
 - **This is like load balancing at the thread level!**
-- Realtime pool vs Scan pool = weighted load balancing (priority-based)
+- Realtime pool vs Batch pool = weighted load balancing (priority-based)
 
-**For Google interview:**
-- "At my current company, I designed a task distribution system similar to load balancing"
-- "I used separate thread pools with different priorities - like weighted load balancing"
-- "I implemented health checks via semaphores to prevent resource exhaustion"
+**For interviews:**
+- "I've worked with task distribution systems similar to load balancing"
+- "Separate thread pools with different priorities - like weighted load balancing"
+- "Health checks via semaphores to prevent resource exhaustion"
 
 **Next concept:** Caching (complements load balancing - reduces backend load)
 
